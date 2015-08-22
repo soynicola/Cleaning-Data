@@ -11,6 +11,40 @@ Description of original variables can be found here: http://archive.ics.uci.edu/
 - Variables: below is the list of a comparison to their original names.
 
 
-
-
+| Column                                       | Original Name              |   
+| -------------------------------------------- |:--------------------------:| 
+| Time.Body.Acceleration.Mean                  | tBodyAcc-mean()            | 
+| Time.Body.Acceleration.STD                   | tBodyAcc-std()             | 
+| Time.Gravity.Acceleration.Mean               | tGravityAcc-mean()         | 
+| Time.Gravity.Acceleration.STD                | tGravityAcc-std()          | 
+| Time.Body.AccelerationJerk.Mean              | tBodyAccJerk-mean()        | 
+| Time.Gravity.AccelerationJerk.Mean           | tGravityAccJerk-mean()     | 
+| Time.Body.Gyroscope.Mean                     | tBodyGyro-mean()           |
+| Time.Body.Gyroscope.STD                      | tBodyGyro-std()            |
+| Time.Body.GyroscopeJerk.Mean                 | tBodyGyroJerk-mean()       |
+| Time.Body.GyroscopeJerk.STD                  | tBodyGyroJerk-std()        |
+| Time.Body.Acceleration.Magnitude.Mean        | tBodyAccMag-mean()         |
+| Time.Body.Gyroscope.Magnitude.STD            | tBodyAccMag-std()          |
+| Time.Gravity.Acceleration.Magnitude.Mean     | tGravityAccMag-mean()      |
+| Time.Gravity.Acceleration.Magnitude.STD      | tGravityAccMag-std()       |
+| Time.Body.AccelerationJerk.Magnitude.Mean    | tBodyAccJerkMag-mean()     |
+| Time.Body.AccelerationJerk.Magnitude.STD     | tBodyAccJerkMag-std()      |
+| Time.Body.Gyroscope.Magnitude.Mean           | tBodyGyroMag-mean()        |
+| Time.Body.Gyroscope.Magnitude.STD            | tBodyGyroMag-std()         |
+| Time.Body.GyroscopeJerk.Magnitude.Mean       | tBodyGyroJerkMag-mean()    |
+| Time.Body.GyroscopeJerk.Magnitude.STD        | tBodyGyroJerkMag-std()     |
+| FFT.Body.Acceleration.Mean                   | fBodyAcc-mean()            |
+| FFT.Body.Acceleration.STD                    | fBodyAcc-std()             |
+| FFT.Body.AccelerationJerk.Mean               | fBodyAccJerk-mean()        |
+| FFT.Body.AccelerationJerk.STD                | fBodyAccJerk-std()         |
+| FFT.Body.Gyroscope.Mean                      | fBodyGyro-mean()           |
+| FFT.Body.Gyroscope.STD                       | fBodyGyro-std()            |
+| FFT.Body.Acceleration.Magnitude.Mean         | fBodyAccMag-mean()         |
+| FFT.Body.Acceleration.Magnitude.STD          | fBodyAccMag-std()          |
+| FFT.BodyBody.AccelerationJerk.Magnitude.Mean | fBodyBodyAccJerkMag-mean() |
+| FFT.BodyBody.AccelerationJerk.Magnitude.STD  | fBodyBodyAccJerkMag-std()  |
+| FFT.BodyBody.Gyroscope.Magnitude.Mean        | fBodyBodyGyroMag-mean()    |
+| FFT.BodyBody.Gyroscope.Magnitude.STD         | fBodyBodyGyroMag-std()     |
+| FFT.BodyBody.GyroscopeJerk.Magnitude.Mean    | fBodyBodyGyroJerkMag-mean()|
+| FFT.BodyBody.GyroscopeJerk.Magnitude.STD     | fBodyBodyGyroJerkMag-std() |
 
