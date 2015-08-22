@@ -16,6 +16,14 @@ Before you run the script, please notice the following.
 
 Script is saves as "run_analysis.R".
 
+## Steps
+   1. Read test, train, their respective label and subject file. 
+   2. Use feature & activity label and merge them altogether as a new dataframe "all_data". 
+   3. Since only mean & std are needed, use grep function to extract the feature names which contains mean() and std(); subset the data by the feature list. 
+   4. Write a function "mgsub" to replace multiple names into appropriate and readable labels. 
+   5. Load plyr package, use melt function to subset data, and then use dcast to caculate variable mean by each pair of Subject + Activity.
+   6. Write the final result to "tidy.txt".
+
 ## Result
 You shall get a "tidy.txt" in your working directory, which contains the tidy data.
 You can use read.table("tidy.txt", header = T) to view it in R.
